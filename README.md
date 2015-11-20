@@ -138,7 +138,7 @@ Newsletter::unsubscribe('the.luggage@discworld.com');
 
 You can pass some merge variables as the second argument:
 ```php
-Newsletter::subscribe('rincewind@discworld.com', ['firstName'=>'Rince', 'lastName'=>'Wind']);
+Newsletter::subscribe('rincewind@discworld.com', ['FNAME'=>'Rince', 'LNAME'=>'Wind']);
 ```
 
 
